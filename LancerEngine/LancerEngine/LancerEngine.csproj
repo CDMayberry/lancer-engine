@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="lancer-data\lib\actions.json" />
+    <None Remove="lancer-data\lib\backgrounds.json" />
+    <None Remove="lancer-data\lib\core_bonuses.json" />
+    <None Remove="lancer-data\lib\environments.json" />
+    <None Remove="lancer-data\lib\factions.json" />
+    <None Remove="lancer-data\lib\frames.json" />
+    <None Remove="lancer-data\lib\glossary.json" />
+    <None Remove="lancer-data\lib\info.json" />
+    <None Remove="lancer-data\lib\manufacturers.json" />
+    <None Remove="lancer-data\lib\mods.json" />
+    <None Remove="lancer-data\lib\pilot_gear.json" />
+    <None Remove="lancer-data\lib\quirks.json" />
+    <None Remove="lancer-data\lib\reserves.json" />
+    <None Remove="lancer-data\lib\rules.json" />
+    <None Remove="lancer-data\lib\sitreps.json" />
+    <None Remove="lancer-data\lib\skills.json" />
+    <None Remove="lancer-data\lib\statuses.json" />
+    <None Remove="lancer-data\lib\systems.json" />
+    <None Remove="lancer-data\lib\tags.json" />
+    <None Remove="lancer-data\lib\talents.json" />
+    <None Remove="lancer-data\lib\weapons.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="lancer-data\lib\actions.json" />
+    <EmbeddedResource Include="lancer-data\lib\backgrounds.json" />
+    <EmbeddedResource Include="lancer-data\lib\core_bonuses.json" />
+    <EmbeddedResource Include="lancer-data\lib\environments.json" />
+    <EmbeddedResource Include="lancer-data\lib\factions.json" />
+    <EmbeddedResource Include="lancer-data\lib\frames.json" />
+    <EmbeddedResource Include="lancer-data\lib\glossary.json" />
+    <EmbeddedResource Include="lancer-data\lib\info.json" />
+    <EmbeddedResource Include="lancer-data\lib\manufacturers.json" />
+    <EmbeddedResource Include="lancer-data\lib\mods.json" />
+    <EmbeddedResource Include="lancer-data\lib\pilot_gear.json" />
+    <EmbeddedResource Include="lancer-data\lib\quirks.json" />
+    <EmbeddedResource Include="lancer-data\lib\reserves.json" />
+    <EmbeddedResource Include="lancer-data\lib\rules.json" />
+    <EmbeddedResource Include="lancer-data\lib\sitreps.json" />
+    <EmbeddedResource Include="lancer-data\lib\skills.json" />
+    <EmbeddedResource Include="lancer-data\lib\statuses.json" />
+    <EmbeddedResource Include="lancer-data\lib\systems.json" />
+    <EmbeddedResource Include="lancer-data\lib\tags.json" />
+    <EmbeddedResource Include="lancer-data\lib\talents.json" />
+    <EmbeddedResource Include="lancer-data\lib\weapons.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
